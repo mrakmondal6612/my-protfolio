@@ -59,29 +59,36 @@ const Portfolio = () => {
                 : "flex-col md:flex-row"
             }`}
           >
-            <div className="space-y-2 max-w-[550px]">
-              <h2 className="text-7xl my-4 text-white/70">{`0${indx + 1}`}</h2>
-              <h2 className="text-4xl">{project.title}</h2>
-              <p className="text-lg text-white/70 break-words p-4">
-                {project.desc}
-              </p>
-              <p className="text-xl text-orange-400 font-semibold">
-                {project.devStack}
-              </p>
-              <div className="w-64 h-[1px] bg-gray-400 my-4">
-                <a href={project.link} className="mr-6 hover:text-[#06b6d4] hover:font-bold">
-                  Link
-                </a>
-                <a href={project.git} className="hover:text-[#06b6d4] hover:font-bold">Git</a>
-              </div>
-            </div>
-
             <div className="flex justify-center items-center">
               <Image
                 src={project.src}
                 alt={project.title}
                 className="h-[350px] w-[500px] object-cover border rounded border-gray-800"
               />
+            </div>
+            <div className="space-y-2 max-w-[550px] px-8">
+              <h2 className="text-6xl my-4 text-white/70">{`0${indx + 1}`}</h2>
+              <h2 className="text-5xl">{project.title}</h2>
+              <p className="text-lg text-white/70 break-words p-4">
+                {project.desc}
+              </p>
+              <p className="text-xl text-orange-400 font-semibold">
+                {project.devStack}
+              </p>
+              <div className="w-68 h-[1px] bg-gray-400 my-4">
+                <a
+                  href={project.link}
+                  className="mr-4 hover:text-[#06b6d4] hover:font-bold"
+                >
+                  Link
+                </a>
+                <a
+                  href={project.git}
+                  className="hover:text-[#06b6d4] hover:font-bold"
+                >
+                  Git
+                </a>
+              </div>
             </div>
           </motion.div>
         ))}
