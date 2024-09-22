@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaDatabase, FaServer } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaDatabase, FaServer, FaNodeJs } from "react-icons/fa";
 
 const skillIcon = [
   {
@@ -23,8 +23,8 @@ const skillIcon = [
     label: "Database",
   },
   {
-    icon: <FaServer size={140} />,
-    label: "Server",
+    icon: <FaNodeJs size={140} />,
+    label: "Nodejs",
   },
 ];
 
