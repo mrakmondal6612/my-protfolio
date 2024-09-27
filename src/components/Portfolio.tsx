@@ -90,7 +90,7 @@ const Portfolio = () => {
               <Image
                 src={project.src}
                 alt={project.title}
-                className="h-[350px] w-[750px] object-cover border rounded border-gray-800"
+                className="h-[350px] w-[650px] object-cover border rounded border-gray-800"
               />
             </div>
             <div className="space-y-2 max-w-[550px] px-8">
