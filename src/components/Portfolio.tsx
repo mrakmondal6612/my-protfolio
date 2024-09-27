@@ -4,9 +4,36 @@ import Image from "next/image";
 import weather from "../assets/weather.png";
 import todolist from "../assets/todo-list.png";
 import saySaimon from "../assets/say-saimon.png";
+import proj1 from "../assets/proj1.jpg";
+import proj3 from "../assets/proj3.png";
+import proj2 from "../assets/proj2.jpg";
 import { motion } from "framer-motion";
 
 const projects = [
+  {
+    title: "UPTEC",
+    desc: "Science And Technology Park of Univercity of Porto",
+    devStack: "Next.js",
+    link: "#",
+    git: "#",
+    src: proj1,
+  },
+  {
+    title: "BlackGold",
+    desc: "__Now it's new black and old gold...",
+    devStack: "Next.js",
+    link: "#",
+    git: "#",
+    src: proj3,
+  },
+  {
+    title: "Landing Platform",
+    desc: "This is a Landing Platform.",
+    devStack: "Next.js",
+    link: "#",
+    git: "#",
+    src: proj2,
+  },
   {
     title: "Weather App",
     desc: "This is my Weather App, This app used for calculate current weather in your city.",
@@ -63,7 +90,7 @@ const Portfolio = () => {
               <Image
                 src={project.src}
                 alt={project.title}
-                className="h-[350px] w-[500px] object-cover border rounded border-gray-800"
+                className="h-[350px] w-[750px] object-cover border rounded border-gray-800"
               />
             </div>
             <div className="space-y-2 max-w-[550px] px-8">
