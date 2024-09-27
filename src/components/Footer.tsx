@@ -5,7 +5,10 @@ const Footer = () => {
   return (
     <div className="px-6 md:px-0 mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 pt-4 flex justify-between items-center">
       <h1 className="text-2xl font-bold">Mr. AK</h1>
-      <div className="flex space-x-6 text-[15px]">
+      <div className="flex space-x-3 text-[12px] min:text-[8px] md:text-[18px]">
+        <a href="#" className="hover:text-gray-300">
+          Home
+        </a>
         <a href="#about" className="hover:text-gray-300">
           About Me
         </a>

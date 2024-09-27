@@ -90,13 +90,13 @@ const Portfolio = () => {
               <Image
                 src={project.src}
                 alt={project.title}
-                className="h-[350px] w-[650px] object-cover border rounded border-gray-800"
+                className="h-[250px] w-[350px] md:w-[950px] md:h-[350px] object-cover border rounded border-gray-800"
               />
             </div>
-            <div className="space-y-2 max-w-[550px] px-8">
-              <h2 className="text-6xl my-4 text-white/70">{`0${indx + 1}`}</h2>
-              <h2 className="text-5xl">{project.title}</h2>
-              <p className="text-lg text-white/70 break-words p-4">
+            <div className="space-y-1 max-w-[550px] px-8">
+              <h2 className="text-4xl md:text-6xl my-4 text-white/70">{`0${indx + 1}`}</h2>
+              <h2 className="text-3xl md:text-5xl">{project.title}</h2>
+              <p className="text-[12px] md:text-lg text-white/70 break-words p-4">
                 {project.desc}
               </p>
               <p className="text-xl text-orange-400 font-semibold">
