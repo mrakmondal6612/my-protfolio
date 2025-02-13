@@ -52,6 +52,11 @@ const Hero = () => {
         <p className="text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80">
           I am a full-stck developer focoused of websites that provide the best
           experience for users.
+          I love diving deep into the intricacies of software systems and creating efficient, robust solutions.
+
+My expertise spans across various areas of web development, but I'm particularly enthusiastic about leveraging Rust's performance and safety features in web backends and system-level applications.
+
+When I'm not coding, you can find me tinkering with Linux distributions, contributing to open-source projects, or exploring the latest advancements in quantum computing and artificial intelligence.
         </p>
         <Image
           src={profilepic}
